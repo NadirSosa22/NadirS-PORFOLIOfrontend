@@ -1,0 +1,71 @@
+.fa-brands.fa-github.fa-2x.text-red:hover {
+    color: rgb(123, 8, 231);
+}
+.fa-brands.fa-linkedin.fa-2x.text-red:hover{
+    color: rgb(241, 169, 11);
+}
+.fa-brands.fa-facebook.fa-2x:hover{
+    color: rgb(29, 194, 14);
+}
+.fa-solid.fa-user-lock.fa-2x:hover{
+    color: rgb(238, 14, 238);
+}
+
+.container{
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0,0,0,0.5)
+    ),url(./dique\ pf.jpg);
+        
+    
+}
+  
+*, ::before, ::after {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+}
+
+.conteiner img{
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner p {
+    font-size: 2rem;
+    color: rgb(252, 8, 8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px rgb(12, 12, 12)
+}
+
+#parrafo{
+
+    width: 200px;;
+    margin: 10px 390px;
+
+}
+    
+.presentacion{
+    width: 100px;
+    margin: 50px 
+
+
+}
+
