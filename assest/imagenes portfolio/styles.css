@@ -4,7 +4,7 @@
 
 /*barra de navegacion*/
 .navbar.navbar-expand-lg{
-    background: #60adcc;
+    background: #080808;
 }
 
 /*redes*/
@@ -15,7 +15,7 @@ i.fa-solid.fa-user-lock.fa-2xl
  
 
 {
-    color: #fff;
+    color: rgb(9, 9, 9);
  }
 
 i.fa-brands.fa-facebook.fa-2xl:hover{
@@ -90,8 +90,8 @@ img.rounded-circle {
     font-weight: 500;
 
     .progress {
-        background-color: rgba(214, 212, 208,0.7);
-        background-position:left top;
+        background-color: 0;
+        background-position : left top
     }
     
      h4.text-secondary{
