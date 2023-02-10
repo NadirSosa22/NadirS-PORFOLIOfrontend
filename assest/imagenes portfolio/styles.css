@@ -1,37 +1,66 @@
-.bg-dack{
+.bg-darck{
     background-color: rgb(2, 2, 2);
 }
+.conteiner p{
+    front-size: 3rem;
+    color: blue;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transform:translate(-50%, -50%);
+
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.section.sobre mi {
+    background-image: url(../imagenes\ portfolio/colage4.jpg);
+    height: 600px;
+    width: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    -msn-background-size: cover;
+
+
+}
+
+
 
 /*barra de navegacion*/
 .navbar.navbar-expand-lg{
     background: #080808;
 }
-
-/*redes*/
-i.fa-brands.fa-facebook.fa-2xl,
-i.fa-brands.fa-linkedin.fa-2xl,
-i.fa-brands.fa-github.fa-2xl,
-i.fa-solid.fa-user-lock.fa-2xl
- 
-
-{
-    color: rgb(9, 9, 9);
- }
-
+=/*botones de redes*/
 i.fa-brands.fa-facebook.fa-2xl:hover{
-   color:blue;
+    --bs-text-opacity: 1;
+   color:#ec0be5 !important;
 }
 
 i.fa-brands.fa-linkedin.fa-2xl:hover{
-    color:rgb(8, 127, 246);
+    --bs-text-opacity: 1;
+    color:#087ff6 !important;
  }
 
   i.fa-brands.fa-github.fa-2xl:hover{
-    color:rgb(58, 5, 181);
+    --bs-text-opacity: 1;
+    color:#3a05b5 !important;
  }
 
  i.fa-solid.fa-user-lock:hover{
-    color:rgb(146, 61, 185);
+    --bs-text-opacity: 1;
+    color:#11f3d5 !important;
  }
 
  .list-group{
